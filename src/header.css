@@ -1,0 +1,95 @@
+.header{
+display: flex;
+flex-direction: row;
+width: 100%;
+}
+.logo{
+background-color:  #008795;
+color: #ffffff;
+width: 11rem;
+height: 90px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 25px;
+font-weight: bold;
+}
+
+.pic{
+width: 30px;
+height: 30px;
+margin-right: 15px;
+}
+
+.dash{
+background: url(./images/b_d.png);
+height: 90px;
+width: 100%;
+color: #ffffff;
+font-size: 32px;
+display: flex;
+justify-content:flex-start;
+align-items: center;
+padding-left: 40px;
+}
+
+.menu{
+display: flex;
+flex-direction: column;
+background-color: #333333;
+width: 10rem;
+}
+
+.menus{
+height: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #ffffff;
+font-size: 14px;
+border-bottom: 1px solid #4a4a4a;
+text-transform: uppercase;
+}
+
+.dummy{
+height:400px ;
+}
+
+.sec-header{
+display: flex;
+flex-direction: row;
+}
+
+.heading-1{
+font-size: 28px;
+color: #333333;
+background-color:  #eeeeee;
+height: 150px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+border-right: 1px solid grey;
+
+}
+
+.data{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 150px;
+width: fit-content;
+font-size: 14px;
+color: #5e5e5e;
+background-color:  #eeeeee;
+}
+
+.con{
+display: flex;
+flex-direction: row;
+}
+
+.content{
+display: flex;
+flex-direction: column;
+}
